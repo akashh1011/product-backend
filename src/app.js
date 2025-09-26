@@ -14,6 +14,10 @@ app.use(cors({
 }))
 
 
+// app.get("/",(req,res)=>{
+//   res.send("API is running....")
+// })
+
 //route initialize
 app.use("/", productRouter)
 
