@@ -1,6 +1,6 @@
 import { Product } from "../models/product.model.js";
 import mongoose from "mongoose"
-import { Inventory } from "../models/Inventory.model.js";
+import { Inventory } from "../models/inventory.model.js";
 import { parseCSVtoJSON } from "../utils/csvParser.util.js";
 import { asyncHandler } from "../utils/asyncHandler.util.js";
 import { ApiResponse } from "../utils/ApiResponse.util.js";
